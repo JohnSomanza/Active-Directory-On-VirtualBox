@@ -1,9 +1,27 @@
-# Basic Home Lab Running Active Directory
+# Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell
 
-This repository contains steps on how i set up a basic home lab running Active Directory following a tutorial by [Josh Madakor](https://www.youtube.com/@JoshMadakor)
+## Introduction
+
+In this guide, I’ll show you how to set up a home lab to run Active Directory using Oracle VirtualBox. We’ll go over the steps to create a Windows Server virtual machine (VM) to serve as a domain controller, install and configure Active Directory Domain Services (AD DS), and use PowerShell to add users to Active Directory. This setup will give you hands-on experience in managing an Active Directory environment and automating user management tasks.
 
 ## Diagram
-![Diagram](active_directory_diagram.jpg)
+![Diagram](https://github.com/spooky7777/Home-Lab-Active-Directory/raw/main/.gitbook/assets/pivd.png)
+
+<h2>Languages Used</h2>
+
+- <b>PowerShell</b>
+
+<h2>Environments Used</h2>
+
+- <b>VirtualBox</b>
+- <b>Windows Server 2019</b>
+- <b>Windows 10</b>
+
+<h2>What is Used</h2>
+
+- <b>AD DS - Active Directory Domain Services</b>
+- <b>NAT - Network Address Translation</b>
+- <b>DHCP</b>
 
 ## Download and install Oracle VirtualBox from the official website.
 [Oracle Virtual Box](https://www.virtualbox.org/)
